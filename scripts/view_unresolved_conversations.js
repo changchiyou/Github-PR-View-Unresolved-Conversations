@@ -32,7 +32,6 @@ function generateConversationButtons() {
     button.innerHTML = turboFrameId;
     button.onclick = () => {
       scrollToElement(turboFrameId);
-      generateConversationButtons();
     };
     button.className = 'btn btn-sm btn-outline';
     button.style.marginBottom = '10px';
