@@ -4,6 +4,8 @@ Quickly view all Github PR unresolved-conversations, by pressing a single button
 
 Inspired by [No way to easily view all unresolved conversations #7638](https://github.com/orgs/community/discussions/7638), especially [the short JS snippet](https://github.com/orgs/community/discussions/7638#discussioncomment-3083505) provided by [AdamEr8](https://github.com/AdamEr8).
 
+> Despite GitHub's introduction of built-in features in June 2022 to help users quickly find unresolved conversations ([New tools to discover and resolve pull request conversations now generally available](https://github.blog/changelog/2021-06-16-new-tools-to-discover-and-resolve-pull-request-conversations-now-generally-available/)), clicking on the listed unresolved conversations redirects the entire page to a new one, which is time-consuming and affects the user experience. Therefore, I believe this project still holds value.
+
 ## Installation
 
 1. Install [Tampermoneky](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) on your browser
