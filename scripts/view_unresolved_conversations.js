@@ -6,6 +6,8 @@
 // @match        https://github.com/*/pulls
 // @match        https://github.com/*/pull/*
 // @grant        window.onurlchange
+// @updateURL    https://raw.githubusercontent.com/changchiyou/Github-PR-View-Unresolved-Conversations/main/scripts/view_unresolved_conversations.js
+// @downloadURL  https://raw.githubusercontent.com/changchiyou/Github-PR-View-Unresolved-Conversations/main/scripts/view_unresolved_conversations.js
 // ==/UserScript==
 
 (function () {
