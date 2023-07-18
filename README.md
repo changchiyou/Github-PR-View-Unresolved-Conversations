@@ -8,6 +8,7 @@ Inspired by [No way to easily view all unresolved conversations #7638](https://g
 
 1. Install [Tampermoneky](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) on your browser
 2. Copy the script [view_unresolved_conversations.js](/scripts/view_unresolved_conversations.js)
+   https://github.com/changchiyou/Github-PR-View-Unresolved-Conversations/blob/e060d806035140dc8ccc6c2d1c7e245d936d9f9f/scripts/view_unresolved_conversations.js#L1-L112
 3. Paste into Tampermonkey's editor, which can be opened by clicking the tampermonkey icon and select `Create a new script...` option.
 
 ## Usage
