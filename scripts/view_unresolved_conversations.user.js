@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Github-PR-View-Unresolved-Conversations
 // @namespace    https://github.com/
-// @version      1.0
+// @version      1.0.1
 // @description  Quickly view all Github PR unresolved-conversations
 // @match        https://github.com/*/pulls
 // @match        https://github.com/*/pull/*
 // @grant        window.onurlchange
-// @updateURL    https://raw.githubusercontent.com/changchiyou/Github-PR-View-Unresolved-Conversations/main/scripts/view_unresolved_conversations.js
-// @downloadURL  https://raw.githubusercontent.com/changchiyou/Github-PR-View-Unresolved-Conversations/main/scripts/view_unresolved_conversations.js
+// @updateURL    https://raw.githubusercontent.com/changchiyou/Github-PR-View-Unresolved-Conversations/main/scripts/view_unresolved_conversations.user.js
+// @downloadURL  https://raw.githubusercontent.com/changchiyou/Github-PR-View-Unresolved-Conversations/main/scripts/view_unresolved_conversations.user.js
 // ==/UserScript==
 
 (function () {
