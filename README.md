@@ -11,9 +11,7 @@ Inspired by [No way to easily view all unresolved conversations #7638](https://g
 ## Installation
 
 1. Install [Tampermoneky](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) on your browser
-2. Copy the script [view_unresolved_conversations.js](/scripts/view_unresolved_conversations.js)
-   https://github.com/changchiyou/Github-PR-View-Unresolved-Conversations/blob/e060d806035140dc8ccc6c2d1c7e245d936d9f9f/scripts/view_unresolved_conversations.js#L1-L112
-3. Paste into Tampermonkey's editor, which can be opened by clicking the tampermonkey icon and select `Create a new script...` option.
+2. Access `https://raw.githubusercontent.com/changchiyou/Github-PR-View-Unresolved-Conversations/main/scripts/view_unresolved_conversations.user.js` with the browser which has already installed [Tampermoneky](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and click `Install` button.
 
 > I suggest using this script in conjunction with [Scroll To Top](https://github.com/pratikabu/scrolltotop), as it will greatly enhance the user experience.
 
@@ -25,4 +23,4 @@ You can test the feature with following PRs in this repo:
 
 - [demo: PR with no conversations #1](https://github.com/changchiyou/Github-PR-View-Unresolved-Conversations/pull/1) https://github.com/changchiyou/Github-PR-View-Unresolved-Conversations/labels/demo
 - [demo: PR with multiple resolved conversations #2](https://github.com/changchiyou/Github-PR-View-Unresolved-Conversations/pull/2) https://github.com/changchiyou/Github-PR-View-Unresolved-Conversations/labels/demo
-- [demo: PR with multiple unresolved conversations #3](https://github.com/changchiyou/Github-PR-View-Unresolved-Conversations/pull/3) https://github.com/changchiyou/Github-PR-View-Unresolved-Conversations/labels/demo
+- :star2: [demo: PR with multiple unresolved conversations #3](https://github.com/changchiyou/Github-PR-View-Unresolved-Conversations/pull/3) https://github.com/changchiyou/Github-PR-View-Unresolved-Conversations/labels/demo
