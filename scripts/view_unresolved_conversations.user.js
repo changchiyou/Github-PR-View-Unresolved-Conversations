@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Github-PR-View-Unresolved-Conversations
 // @namespace    https://github.com/
-// @version      1.0.1
+// @version      1.1.0
 // @description  Quickly view all Github PR unresolved-conversations
 // @match        https://github.com/*/pulls
 // @match        https://github.com/*/pull/*
@@ -27,6 +27,24 @@
     }
   }
 
+  function addGoToTopButton(element) {
+    console.log(element);
+    const focusedElement = document.activeElement;
+    if (focusedElement && focusedElement !== document.body) {
+      focusedElement.blur();
+    }
+
+    const goToTopButton = document.createElement("button");
+    goToTopButton.innerHTML = "Go to TOP";
+    goToTopButton.className = "Button--secondary Button--medium Button m-3";
+    goToTopButton.style.marginLeft = "10px";
+    goToTopButton.onclick = () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+
+    element.parentNode.insertBefore(goToTopButton, element.nextSibling);
+  }
+
   function generateConversationButtons() {
     const unsolvedConversations = [
       ...document.querySelectorAll('details[data-resolved="false"]'),
@@ -42,6 +60,18 @@
       }
       return;
     }
+
+    unsolvedConversations.forEach((conversation) => {
+      const resolveButtons = Array.from(
+        conversation.querySelectorAll("button"),
+      ).filter((button) => button.textContent.includes("Resolve conversation"));
+
+      if (resolveButtons.length > 0) {
+        resolveButtons.forEach((button) => {
+          addGoToTopButton(button.parentElement.parentElement);
+        });
+      }
+    });
 
     const buttons = unsolvedConversations.map((conversation) => {
       const turboFrameId = conversation.closest("turbo-frame").id;
