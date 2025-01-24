@@ -13,7 +13,7 @@ Inspired by [No way to easily view all unresolved conversations #7638](https://g
 1. Install [Tampermoneky](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) on your browser
 2. Access https://raw.githubusercontent.com/changchiyou/Github-PR-View-Unresolved-Conversations/main/scripts/view_unresolved_conversations.user.js with the browser (copy&paste or simply click the hyperlink) which has already installed [Tampermoneky](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and click `Install` button.
 
-> I suggest using this script in conjunction with [Scroll To Top](https://github.com/pratikabu/scrolltotop), as it will greatly enhance the user experience.
+> ~~I suggest using this script in conjunction with [Scroll To Top](https://github.com/pratikabu/scrolltotop), as it will greatly enhance the user experience.~~ Go-to-tup feature has already been added at [feat: add Go to TOP button next to Resolve conversation button](https://github.com/changchiyou/Github-PR-View-Unresolved-Conversations/commit/7b38b9fa7155da7a3fec531361d526fff882ee19).
 
 ## Usage
 
