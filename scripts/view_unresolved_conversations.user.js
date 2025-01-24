@@ -75,8 +75,18 @@
 
     const buttons = unsolvedConversations.map((conversation) => {
       const turboFrameId = conversation.closest("turbo-frame").id;
+
+      // Get discussion content
+      const contentText = conversation.querySelector(".comment-body").textContent.trim();
+      const shortText = contentText.length > 30 ? contentText.substring(0, 30) + "..." : contentText;
+
+      // Get user info
+      const user = conversation.querySelector(".author").textContent.trim();
+      const buttonText = `@${user}: ${shortText}`;
+
       const button = document.createElement("button");
-      button.innerHTML = turboFrameId;
+      button.innerHTML = buttonText;
+
       button.onclick = () => {
         scrollToElement(turboFrameId);
       };
