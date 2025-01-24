@@ -17,9 +17,9 @@ Inspired by [No way to easily view all unresolved conversations #7638](https://g
 
 ## Usage
 
-By clicking the hyperlink on the PR listing page or directly accessing the URL of a specific PR, the `Unresolved Conversations` button will be automatically generated.
+After accessing any PRs, the `Unresolved Conversations` button will be automatically generated.
 
-You can test the feature with following PRs in this repo:
+You can test the feature with following demo PRs in this repo:
 
 - [demo: PR with no conversations #1](https://github.com/changchiyou/Github-PR-View-Unresolved-Conversations/pull/1) https://github.com/changchiyou/Github-PR-View-Unresolved-Conversations/labels/demo
 - [demo: PR with multiple resolved conversations #2](https://github.com/changchiyou/Github-PR-View-Unresolved-Conversations/pull/2) https://github.com/changchiyou/Github-PR-View-Unresolved-Conversations/labels/demo
